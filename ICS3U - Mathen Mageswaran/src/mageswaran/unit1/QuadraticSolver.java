@@ -8,7 +8,7 @@ public class QuadraticSolver {
 	/**
 	 * ObjectHeight.java
 	 * This program is to find the 2 roots of an equation
-	 * September 24, 2019
+	 * September 30, 2019
 	 * @author Mathen M
 	 */
 

@@ -8,7 +8,7 @@ public class NumberPlaceSeperator {
 	/**
 	 * ObjectHeight.java
 	 * This program is to find the digits in the hundredth, tenth, and ones place
-	 * September 24, 2019
+	 * October 1, 2019
 	 * @author Mathen M
 	 */
 
