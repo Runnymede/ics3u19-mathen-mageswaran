@@ -15,7 +15,6 @@ public class MathTutor {
 	 */
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	//Generators for 2 numbers
 	int firstNum = (int)(Math.random()*10) + 1;
