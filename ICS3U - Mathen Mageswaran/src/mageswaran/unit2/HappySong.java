@@ -9,7 +9,7 @@ package mageswaran.unit2;
 
 public class HappySong {
 
-	/**entry point to this program
+	/**Entry point to this program.
 	 * @param args unused
 	 */
 	
