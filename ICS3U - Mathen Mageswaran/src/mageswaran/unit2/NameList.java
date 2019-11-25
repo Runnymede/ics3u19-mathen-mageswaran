@@ -19,9 +19,18 @@ public class NameList {
 
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("How many names would you like to enter");
+		int amount = sc.nextInt();
+
 		System.out.println("Type in a list of names");
-		int n = sc.nextInt();
-		double [] names = new double[n]; 
+		for (int i = 0; i < amount; i++) {
+		String n = sc.nextLine();
+		String [] names = new String[n]; 
+		}
+
+		
+		
+		
 		
 		
 	}
