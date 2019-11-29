@@ -15,43 +15,63 @@ public class DiceRollAndAdd {
 	
 	public static void main(String[] args) {
 		
-		int diceOne;
-		int diceTwo;
-		int []total;		
-
-		for (int i = 0; i > 10; i++) {
-		diceOne = (int)(Math.random()*6) + 1;
-		diceTwo = (int)(Math.random()*6) + 1;
-		total[] = {diceOne + diceTwo};		
-		}
-		
-		System.out.println(total[i]);
 
 		
 		System.out.println("Total   " + "   Number of Rolls");
-		System.out.println("  1");
-		System.out.println("  2");
-		System.out.println("  3");
-		System.out.println("  4");
-		System.out.println("  5");
-		System.out.println("  6");
-		System.out.println("  7");
-		System.out.println("  8");
-		System.out.println("  9");
-		System.out.println("  10");
-		System.out.println("  11");
-		System.out.println("  12");
-
-			
+				
 		for (int i = 0; i > 10000; i++) {
 		int diceOne = (int)(Math.random()*6) + 1;
 		int diceTwo = (int)(Math.random()*6) + 1;
 		int []total = {diceOne + diceTwo};
-		System.out.println(i + "   " + total[0]);
+		}
 		
+		if (total[i] == 2) {
+			int two = 0;
+			two++;
+			}
+			else if (total[i] == 3) {
+			int three = 0;
+			three++;
+				}
+			else if (total[i] == 4) {
+			int four = 0;
+			four++;
+				}
+			else if (total[i] == 5) {
+			int five = 0;
+			five++;
+				}
+			else if (total[i] == 6) {
+			int six = 0;
+			six	++;
+				}
+			else if (total[i] == 7) {
+			int seven = 0;
+			seven++;
+				}
+			else if (total[i] == 8) {
+			int eight = 0;
+			eight++;
+				}
+			else if (total[i] == 9) {
+			int nine = 0;
+			nine++;
+				}
+			else if (total[i] == 10) {
+			int ten = 0;
+			ten++;
+				}
+			else if (total[i] == 11) {
+			int eleven = 0;
+			eleven++;
+				}
+			else if (total[i] == 12) {
+			int twelve = 0;
+			twelve++;
+		}
 		
 	
-		
+		System.out.println("  1"  + two);
 		
 		
 		
@@ -62,6 +82,6 @@ public class DiceRollAndAdd {
 		
 			
 		
-	}
-
 }
+
+
