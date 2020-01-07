@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Mathen M
  */
 
-public class IsoTriangle {
+public class IsoTriangle2 {
 
 	/**entry point to this program
 	 * @param args unused
@@ -37,7 +37,9 @@ public class IsoTriangle {
 				
 			
 				public static void drawSpaces(int n){
-				System.out.print(" ");	
+				
+					for(int i = 0; )
+					System.out.print(" ");	
 				}
 			
 				public static void drawStars(int n){

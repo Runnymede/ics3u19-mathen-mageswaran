@@ -29,14 +29,14 @@ public class TemperatureConvertor {
 			if(choice == one) {
 				System.out.println("Enter temperature: ");
 				double temp = sc.nextDouble();
-				System.out.println("The temperature in celsius is " + fahreinheitToCelsuis(temp) + " ");
+				System.out.println("The temperature in celsius is " + fahreinheitToCelsuis(temp) + " C.");
 				fahreinheitToCelsuis(temp);
 			}
 			
 			else {
 				System.out.println("Enter temperature: ");
 				double temp = sc.nextDouble();
-				System.out.println("The temperature in fahreinheit is " + celsiusToFahreinheit(temp) + " ");
+				System.out.println("The temperature in fahreinheit is " + celsiusToFahreinheit(temp) + " F.");
 				celsiusToFahreinheit(temp);
 			}
 			
