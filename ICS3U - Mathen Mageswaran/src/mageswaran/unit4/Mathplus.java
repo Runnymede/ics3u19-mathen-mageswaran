@@ -99,4 +99,52 @@ public class Mathplus {
 		double average = sum / avg.length;
 		return average;
 	}
+	
+	
+	
+	public static double median(double[]mid) {
+		
+	}
+	
+	public static double mode(double[]most) {
+		
+	}
+	
+	public static boolean prime(int xDivide) {
+		double limit = Math.sqrt(xDivide);
+		int divider = 2;
+		double remain = -1;
+
+		do {
+			remain = xDivide % divider;
+			
+			if (remain == 0) {
+				break;}
+			else
+			divider = divider + 1;
+			} while (divider <= limit);
+		if(remain == 0) {
+			return false;
+		}
+		else {
+			return true;	
+		}
+	}
+	
+	public static long factorial(int product) {
+		for(int i = 0; product>i; product--) {
+		}
+		long factorial = factorial*product;
+		return factorial;
+	}
+	
+	public static int numOfFactors(int ) {
+		
+	}
+	
+	public static int[] factors(int mid) {
+		
+	}
+	
+	
 }
