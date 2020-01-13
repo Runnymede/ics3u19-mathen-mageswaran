@@ -1,5 +1,7 @@
 package mageswaran.unit4;
 
+import java.util.Scanner;
+
 /**
  * ObjectHeight.java
  * This program is to make different mathematical methods
@@ -14,6 +16,8 @@ public class Mathplus {
 	 */
 
 	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
 
 	}
 
@@ -132,19 +136,41 @@ public class Mathplus {
 	}
 	
 	public static long factorial(int product) {
+		long factorial = 1;
 		for(int i = 0; product>i; product--) {
 		}
-		long factorial = factorial*product;
+		factorial = factorial*product;
 		return factorial;
 	}
 	
-	public static int numOfFactors(int ) {
-		
+	public static int numOfFactors(int num) {
+		int counter = 0;
+		int half = num / 2; 
+		double valueOfNum = Math.rint(half);
+		for(int i = 0; valueOfNum>i; valueOfNum--) {
+			double test = num % valueOfNum;
+					if(test == 0) {
+						 counter++;
+					}		
+		}
+		int numOfFactors = counter;
+		return numOfFactors;
 	}
+
 	
-	public static int[] factors(int mid) {
+	public static int[] factors(int num) {
 		
-	}
+		int counter = 0;
+		int half = num / 2; 
+		int[] factors = new int[half];
+		double valueOfNum = Math.rint(half);
+		for(int i = 0; valueOfNum>i; valueOfNum--) {
+			int test = num % valueOfNum;
+					if(test == 0) {
+						 factors[test] = scan.nextDouble();
+		}
 	
+	}
+}
 	
 }
