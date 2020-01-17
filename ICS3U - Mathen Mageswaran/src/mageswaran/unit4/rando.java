@@ -1,5 +1,6 @@
 package mageswaran.unit4;
-
+import java.awt.Color;
+import hsa_new.Console;
 import java.util.Scanner;
 
 public class rando {
@@ -24,6 +25,9 @@ public class rando {
 		System.out.println("Biology! Good choice.");
 		System.out.println("What is the biggest");
 		
+		String ANSI_RESET = "\u001B[0m";
+		String ANSI_RED = "\u001B[31m";
+		sc.setTextBackgroundColor(Color.GREEN);
 		
 
 	}
