@@ -27,13 +27,12 @@ public class Gr11FactsAndCuriouculminatingFinalProject {
 		c.println("Hey " + name + "! You can chose from a variety of fun and topics and questioning methods to quiz yourself and learn from");
 		String option = null;
 //Put in loop in case user wants to retry a test or try other topics
-		while (option != "0");{
 		c.println("Which of these would you like to try? Press 0) to exit");
 		c.println(" 1) Space 2) Biology 3) True or False");
 		c.println(" 4) Mathematics 5) Random 6) Tim Hortons");
 		c.println(" 7) Final Test");
 		 option = c.readLine();
-		
+		while (option != "0");{
 /**
  * Different pathways depending on which questionnaire the user picks
  */
